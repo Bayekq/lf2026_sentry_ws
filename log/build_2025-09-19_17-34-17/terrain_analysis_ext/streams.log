@@ -1,0 +1,125 @@
+[0.050s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake /home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/terrain_analysis_ext -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.165s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.308s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /home/luojiafox/venv/rosvenv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.525s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.628s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.713s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.722s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.734s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.854s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.958s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.984s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.025s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.040s] -- Looking for pthread.h
+[1.115s] -- Looking for pthread.h - found
+[1.115s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.172s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.173s] -- Found Threads: TRUE  
+[1.265s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.317s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.332s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.449s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.477s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.478s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.478s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.484s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.513s] -- Checking for module 'eigen3'
+[1.521s] --   Found eigen3, version 3.4.0
+[1.552s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.553s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.617s] -- Checking for module 'flann'
+[1.631s] --   Found flann, version 1.9.1
+[1.662s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.662s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.610s] -- Checking for module 'libusb-1.0'
+[2.624s] --   Found libusb-1.0, version 1.0.25
+[2.678s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.678s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.739s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.907s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.911s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.916s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.041s] -- Found Qhull version 8.0.2
+[3.185s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.374s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.375s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.376s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.377s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.378s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.379s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.379s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.379s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.380s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.381s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.382s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.383s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.384s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.386s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.387s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.388s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.389s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.390s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.391s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.392s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.393s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.393s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.393s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.394s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.395s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.404s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[3.424s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.604s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.605s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.605s] -- Configured cppcheck include dirs: 
+[3.605s] -- Configured cppcheck exclude dirs and/or files: 
+[3.606s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.606s] -- Configured cpplint exclude dirs and/or files: 
+[3.606s] -- Added test 'lint_cmake' to check CMake code style
+[3.607s] -- Added test 'uncrustify' to check C / C++ code style
+[3.607s] -- Configured uncrustify additional arguments: 
+[3.607s] -- Added test 'xmllint' to check XML markup files
+[3.608s] -- Configuring done
+[3.640s] -- Generating done
+[3.647s] -- Build files have been written to: /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext
+[3.666s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake /home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/terrain_analysis_ext -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext
+[3.668s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext -- -j22 -l22
+[3.723s] [ 50%] [32mBuilding CXX object CMakeFiles/terrainAnalysisExt.dir/src/terrainAnalysisExt.cpp.o[0m
+[34.440s] [100%] [32m[1mLinking CXX executable terrainAnalysisExt[0m
+[34.958s] [100%] Built target terrainAnalysisExt
+[34.973s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext -- -j22 -l22
+[34.976s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext
+[34.982s] -- Install configuration: "Release"
+[34.983s] -- Execute custom install script
+[34.983s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/lib/terrain_analysis_ext/terrainAnalysisExt
+[34.992s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/terrain_analysis_ext.launch
+[34.999s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/package_run_dependencies/terrain_analysis_ext
+[35.006s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/parent_prefix_path/terrain_analysis_ext
+[35.014s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.sh
+[35.020s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.dsv
+[35.030s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.sh
+[35.037s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.dsv
+[35.046s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.bash
+[35.055s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.sh
+[35.063s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.zsh
+[35.071s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.dsv
+[35.080s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv
+[35.090s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/packages/terrain_analysis_ext
+[35.099s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig.cmake
+[35.108s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig-version.cmake
+[35.117s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.xml
+[35.128s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext

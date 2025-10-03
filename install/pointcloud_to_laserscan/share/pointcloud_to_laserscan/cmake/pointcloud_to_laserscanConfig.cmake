@@ -1,0 +1,1 @@
+/home/luojiafox/workspace/lf2026_sentry_ws/build/pointcloud_to_laserscan/ament_cmake_core/pointcloud_to_laserscanConfig.cmake

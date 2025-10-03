@@ -1,0 +1,35 @@
+[0.076s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization -- -j22 -l22
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target small_gicp_relocalization[0m
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target small_gicp_relocalization_node[0m
+[0.142s] [ 50%] Built target small_gicp_relocalization_node
+[0.151s] [100%] Built target small_gicp_relocalization
+[0.407s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization -- -j22 -l22
+[0.409s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization
+[0.432s] -- Install configuration: "Release"
+[0.432s] -- Execute custom install script
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/lib/small_gicp_relocalization/small_gicp_relocalization_node
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/include/small_gicp_relocalization/small_gicp_relocalization.hpp
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/library_path.sh
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/library_path.dsv
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/lib/libsmall_gicp_relocalization.so
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/launch/small_gicp_relocalization_launch.py
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/ament_index/resource_index/package_run_dependencies/small_gicp_relocalization
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/ament_index/resource_index/parent_prefix_path/small_gicp_relocalization
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.sh
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/ament_prefix_path.dsv
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.sh
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/environment/path.dsv
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.bash
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.sh
+[0.433s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.zsh
+[0.434s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/local_setup.dsv
+[0.434s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.dsv
+[0.442s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/ament_index/resource_index/packages/small_gicp_relocalization
+[0.442s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/ament_index/resource_index/rclcpp_components/small_gicp_relocalization
+[0.442s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.442s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.442s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/ament_cmake_export_libraries-extras.cmake
+[0.442s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig.cmake
+[0.442s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/cmake/small_gicp_relocalizationConfig-version.cmake
+[0.442s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/small_gicp_relocalization/share/small_gicp_relocalization/package.xml
+[0.551s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization

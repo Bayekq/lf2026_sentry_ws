@@ -1,0 +1,89 @@
+[0.062s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake /home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.185s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting C compiler ABI info
+[0.257s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.268s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.342s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.342s] -- Detecting CXX compile features
+[0.342s] -- Detecting CXX compile features - done
+[0.348s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.496s] -- Found Python3: /home/luojiafox/venv/rosvenv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.553s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.730s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.740s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.756s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.815s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.909s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.914s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.993s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.038s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.080s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.094s] -- Looking for pthread.h
+[1.146s] -- Looking for pthread.h - found
+[1.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.213s] -- Found Threads: TRUE  
+[1.516s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.517s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.517s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.614s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.663s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/pb_teleop_twist_joy` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.667s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.667s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.668s] -- Configured cppcheck include dirs: /home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy/include
+[1.668s] -- Configured cppcheck exclude dirs and/or files: 
+[1.669s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.669s] -- Configured cpplint exclude dirs and/or files: 
+[1.674s] -- Added test 'lint_cmake' to check CMake code style
+[1.676s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.676s] -- Added test 'xmllint' to check XML markup files
+[1.676s] -- Added test 'clang_format' to check C / C++ code style
+[1.676s] -- Added test 'black' to check Python code style
+[1.676s] -- Configuring done
+[1.690s] -- Generating done
+[1.700s] -- Build files have been written to: /home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy
+[1.721s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake /home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/pb_teleop_twist_joy -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy
+[1.723s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy -- -j22 -l22
+[1.768s] [ 25%] [32mBuilding CXX object CMakeFiles/pb_teleop_twist_joy.dir/src/pb_teleop_twist_joy.cpp.o[0m
+[1.768s] [ 50%] [32mBuilding CXX object CMakeFiles/pb_teleop_twist_joy_node.dir/rclcpp_components/node_main_pb_teleop_twist_joy_node.cpp.o[0m
+[6.807s] [ 75%] [32m[1mLinking CXX executable pb_teleop_twist_joy_node[0m
+[6.947s] [ 75%] Built target pb_teleop_twist_joy_node
+[24.357s] [100%] [32m[1mLinking CXX shared library libpb_teleop_twist_joy.so[0m
+[24.597s] [100%] Built target pb_teleop_twist_joy
+[24.614s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy -- -j22 -l22
+[24.615s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy
+[24.625s] -- Install configuration: "Release"
+[24.626s] -- Execute custom install script
+[24.626s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/lib/pb_teleop_twist_joy/pb_teleop_twist_joy_node
+[24.638s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/include/pb_teleop_twist_joy/pb_teleop_twist_joy.hpp
+[24.649s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/library_path.sh
+[24.670s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/library_path.dsv
+[24.687s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/lib/libpb_teleop_twist_joy.so
+[24.701s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/config/xbox.config.yaml
+[24.709s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/launch/pb_teleop_twist_joy_launch.py
+[24.720s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/pb_teleop_twist_joy
+[24.731s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/pb_teleop_twist_joy
+[24.741s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/ament_prefix_path.sh
+[24.752s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/ament_prefix_path.dsv
+[24.766s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/path.sh
+[24.778s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/environment/path.dsv
+[24.791s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/local_setup.bash
+[24.802s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/local_setup.sh
+[24.808s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/local_setup.zsh
+[24.816s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/local_setup.dsv
+[24.828s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.dsv
+[24.836s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/ament_index/resource_index/packages/pb_teleop_twist_joy
+[24.844s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/pb_teleop_twist_joy
+[24.851s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.858s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.865s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[24.873s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/pb_teleop_twist_joyConfig.cmake
+[24.889s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/cmake/pb_teleop_twist_joyConfig-version.cmake
+[24.902s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/pb_teleop_twist_joy/share/pb_teleop_twist_joy/package.xml
+[24.911s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/pb_teleop_twist_joy

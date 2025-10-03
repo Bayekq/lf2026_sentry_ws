@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: publish-anything-ros2-gui
+Version: 1.0.0
+Summary: A GUI tool for publishing ROS2 messages using PyQt5.
+Home-page: https://github.com/ros-teleop/teleop_tools
+Author: Lihan Chen
+Author-email: lihanchen2004@163.com
+Maintainer: Lihan Chen
+Maintainer-email: lihanchen2004@163.com
+License: Apache-2.0
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache-2.0
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+
+        This tool provides a graphical user interface (GUI) for publishing ROS2 messages.
+        It allows users to configure and publish messages to various ROS2 topics using PyQt5 widgets.
+        Users can set message fields, adjust publishing frequency, and start/stop publishing with ease.
+        The tool supports nested message types and provides a flexible interface for different message configurations.
+    
+

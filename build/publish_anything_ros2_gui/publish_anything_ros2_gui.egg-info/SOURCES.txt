@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+config/publish_anything_example.yaml
+config/qt_style.qss
+launch/publish_anything_ros2_gui_launch.py
+publish_anything_ros2_gui/__init__.py
+publish_anything_ros2_gui/publish_anything_ros2_gui.py
+publish_anything_ros2_gui.egg-info/PKG-INFO
+publish_anything_ros2_gui.egg-info/SOURCES.txt
+publish_anything_ros2_gui.egg-info/dependency_links.txt
+publish_anything_ros2_gui.egg-info/entry_points.txt
+publish_anything_ros2_gui.egg-info/requires.txt
+publish_anything_ros2_gui.egg-info/top_level.txt
+publish_anything_ros2_gui.egg-info/zip-safe
+resource/publish_anything_ros2_gui

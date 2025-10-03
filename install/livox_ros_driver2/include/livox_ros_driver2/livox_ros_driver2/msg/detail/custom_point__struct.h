@@ -1,0 +1,1 @@
+/home/luojiafox/workspace/lf2026_sentry_ws/build/livox_ros_driver2/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__struct.h

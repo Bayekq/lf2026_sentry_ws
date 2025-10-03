@@ -1,0 +1,1 @@
+/home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/sensor_scan_generation/include/sensor_scan_generation/sensor_scan_generation.hpp

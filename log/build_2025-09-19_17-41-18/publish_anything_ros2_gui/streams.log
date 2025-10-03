@@ -1,0 +1,19 @@
+[0.723s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui': PYTHONPATH=/home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/build --no-deps symlink_data
+[0.986s] running develop
+[1.064s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: None is an invalid version and will not be supported in a future release
+[1.064s]   warnings.warn(
+[1.208s] running egg_info
+[1.209s] writing publish_anything_ros2_gui.egg-info/PKG-INFO
+[1.209s] writing dependency_links to publish_anything_ros2_gui.egg-info/dependency_links.txt
+[1.209s] writing entry points to publish_anything_ros2_gui.egg-info/entry_points.txt
+[1.209s] writing requirements to publish_anything_ros2_gui.egg-info/requires.txt
+[1.209s] writing top-level names to publish_anything_ros2_gui.egg-info/top_level.txt
+[1.210s] reading manifest file 'publish_anything_ros2_gui.egg-info/SOURCES.txt'
+[1.210s] writing manifest file 'publish_anything_ros2_gui.egg-info/SOURCES.txt'
+[1.211s] running build_ext
+[1.211s] Creating /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/lib/python3.10/site-packages/publish-anything-ros2-gui.egg-link (link to .)
+[1.212s] Installing publish_anything_ros2_gui script to /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/lib/publish_anything_ros2_gui
+[1.212s] 
+[1.212s] Installed /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui
+[1.212s] running symlink_data
+[1.233s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui' returned '0': PYTHONPATH=/home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/build --no-deps symlink_data

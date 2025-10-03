@@ -1,0 +1,131 @@
+[0.052s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake /home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.181s] -- The CXX compiler identification is GNU 11.4.0
+[0.191s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.267s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.267s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.268s] -- Detecting CXX compiler ABI info
+[0.352s] -- Detecting CXX compiler ABI info - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.359s] -- Detecting CXX compile features - done
+[0.363s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.520s] -- Found Python3: /home/luojiafox/venv/rosvenv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.561s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.765s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.784s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.795s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.884s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.888s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.981s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.024s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.080s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.106s] -- Looking for pthread.h
+[1.163s] -- Looking for pthread.h - found
+[1.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.221s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.222s] -- Found Threads: TRUE  
+[1.501s] -- Checking for module 'eigen3'
+[1.511s] --   Found eigen3, version 3.4.0
+[1.534s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.534s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.582s] -- Checking for module 'flann'
+[1.589s] --   Found flann, version 1.9.1
+[1.630s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.631s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.629s] -- Checking for module 'libusb-1.0'
+[2.641s] --   Found libusb-1.0, version 1.0.25
+[2.680s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.680s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.743s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.992s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.000s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.009s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.137s] -- Found Qhull version 8.0.2
+[3.258s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.384s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.384s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.385s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.386s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.387s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.387s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.388s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.388s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.388s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.389s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.390s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.390s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.391s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.392s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.392s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.393s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.394s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.394s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.395s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.396s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.396s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.397s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.397s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.397s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.398s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.436s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.437s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.437s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.530s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.589s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/sensor_scan_generation` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[3.592s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.593s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.593s] -- Configured cppcheck include dirs: /home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/sensor_scan_generation/include
+[3.593s] -- Configured cppcheck exclude dirs and/or files: 
+[3.593s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.594s] -- Configured cpplint exclude dirs and/or files: 
+[3.594s] -- Added test 'lint_cmake' to check CMake code style
+[3.594s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.595s] -- Added test 'xmllint' to check XML markup files
+[3.595s] -- Added test 'clang_format' to check C / C++ code style
+[3.596s] -- Added test 'black' to check Python code style
+[3.598s] -- Configuring done
+[3.627s] -- Generating done
+[3.635s] -- Build files have been written to: /home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation
+[3.649s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake /home/luojiafox/workspace/lf2026_sentry_ws/src/pb2025_sentry_nav/sensor_scan_generation -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation
+[3.652s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation -- -j22 -l22
+[3.706s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_scan_generation_node.dir/rclcpp_components/node_main_sensor_scan_generation_node.cpp.o[0m
+[3.706s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_scan_generation.dir/src/sensor_scan_generation.cpp.o[0m
+[7.895s] [ 75%] [32m[1mLinking CXX executable sensor_scan_generation_node[0m
+[8.241s] [ 75%] Built target sensor_scan_generation_node
+[26.659s] [100%] [32m[1mLinking CXX shared library libsensor_scan_generation.so[0m
+[27.031s] [100%] Built target sensor_scan_generation
+[27.041s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation -- -j22 -l22
+[27.042s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation
+[27.053s] -- Install configuration: "Release"
+[27.054s] -- Execute custom install script
+[27.054s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/lib/sensor_scan_generation/sensor_scan_generation_node
+[27.067s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/include/sensor_scan_generation/sensor_scan_generation.hpp
+[27.079s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/library_path.sh
+[27.092s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/library_path.dsv
+[27.104s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/lib/libsensor_scan_generation.so
+[27.112s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/launch/sensor_scan_generation.launch.py
+[27.119s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/ament_index/resource_index/package_run_dependencies/sensor_scan_generation
+[27.127s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/ament_index/resource_index/parent_prefix_path/sensor_scan_generation
+[27.135s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.sh
+[27.146s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.dsv
+[27.153s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.sh
+[27.165s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.dsv
+[27.173s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.bash
+[27.185s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.sh
+[27.197s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.zsh
+[27.210s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.dsv
+[27.222s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv
+[27.235s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/ament_index/resource_index/packages/sensor_scan_generation
+[27.244s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/ament_index/resource_index/rclcpp_components/sensor_scan_generation
+[27.256s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.270s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.286s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/cmake/ament_cmake_export_libraries-extras.cmake
+[27.296s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig.cmake
+[27.307s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig-version.cmake
+[27.320s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/sensor_scan_generation/share/sensor_scan_generation/package.xml
+[27.335s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/sensor_scan_generation

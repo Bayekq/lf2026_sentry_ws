@@ -1,0 +1,29 @@
+running develop
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: None is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+creating publish_anything_ros2_gui.egg-info
+writing publish_anything_ros2_gui.egg-info/PKG-INFO
+writing dependency_links to publish_anything_ros2_gui.egg-info/dependency_links.txt
+writing entry points to publish_anything_ros2_gui.egg-info/entry_points.txt
+writing requirements to publish_anything_ros2_gui.egg-info/requires.txt
+writing top-level names to publish_anything_ros2_gui.egg-info/top_level.txt
+writing manifest file 'publish_anything_ros2_gui.egg-info/SOURCES.txt'
+reading manifest file 'publish_anything_ros2_gui.egg-info/SOURCES.txt'
+writing manifest file 'publish_anything_ros2_gui.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/lib/python3.10/site-packages/publish-anything-ros2-gui.egg-link (link to .)
+Installing publish_anything_ros2_gui script to /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/lib/publish_anything_ros2_gui
+
+Installed /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui
+running symlink_data
+symbolically linking /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/package.xml -> /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/publish_anything_ros2_gui
+creating /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/publish_anything_ros2_gui/config
+symbolically linking /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/config/publish_anything_example.yaml -> /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/publish_anything_ros2_gui/config
+symbolically linking /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/config/qt_style.qss -> /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/publish_anything_ros2_gui/config
+creating /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/publish_anything_ros2_gui/launch
+symbolically linking /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/launch/publish_anything_ros2_gui_launch.py -> /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/publish_anything_ros2_gui/launch
+creating /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/ament_index
+creating /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/ament_index/resource_index
+creating /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/ament_index/resource_index/packages
+symbolically linking /home/luojiafox/workspace/lf2026_sentry_ws/build/publish_anything_ros2_gui/resource/publish_anything_ros2_gui -> /home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui/share/ament_index/resource_index/packages

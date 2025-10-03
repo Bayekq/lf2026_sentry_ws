@@ -1,0 +1,25 @@
+[0.077s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext -- -j22 -l22
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target terrainAnalysisExt[0m
+[0.142s] [100%] Built target terrainAnalysisExt
+[0.398s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --build /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext -- -j22 -l22
+[0.400s] Invoking command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext
+[0.420s] -- Install configuration: "Release"
+[0.420s] -- Execute custom install script
+[0.420s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/lib/terrain_analysis_ext/terrainAnalysisExt
+[0.420s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/launch/terrain_analysis_ext.launch
+[0.420s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/package_run_dependencies/terrain_analysis_ext
+[0.420s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/parent_prefix_path/terrain_analysis_ext
+[0.420s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.sh
+[0.421s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/ament_prefix_path.dsv
+[0.421s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.sh
+[0.421s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/environment/path.dsv
+[0.421s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.bash
+[0.421s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.sh
+[0.421s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.zsh
+[0.421s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/local_setup.dsv
+[0.421s] -- Symlinking: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv
+[0.430s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/ament_index/resource_index/packages/terrain_analysis_ext
+[0.430s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig.cmake
+[0.430s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/cmake/terrain_analysis_extConfig-version.cmake
+[0.430s] -- Up-to-date symlink: /home/luojiafox/workspace/lf2026_sentry_ws/install/terrain_analysis_ext/share/terrain_analysis_ext/package.xml
+[0.530s] Invoked command in '/home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/luojiafox/workspace/lf2026_sentry_ws/install/publish_anything_ros2_gui:/opt/ros/humble VIRTUAL_ENV_PROMPT=(rosvenv) /usr/bin/cmake --install /home/luojiafox/workspace/lf2026_sentry_ws/build/terrain_analysis_ext

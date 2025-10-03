@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/luojiafox/workspace/lf2026_sentry_ws/build/small_gicp_relocalization/small_gicp_relocalization_node" "TARGETS" "small_gicp_relocalization_node" "DESTINATION" "lib/small_gicp_relocalization")

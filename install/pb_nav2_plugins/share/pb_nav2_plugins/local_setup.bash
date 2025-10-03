@@ -1,0 +1,1 @@
+/home/luojiafox/workspace/lf2026_sentry_ws/build/pb_nav2_plugins/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/luojiafox/workspace/lf2026_sentry_ws/build/pb_nav2_plugins/ament_cmake_core/pb_nav2_pluginsConfig-version.cmake
